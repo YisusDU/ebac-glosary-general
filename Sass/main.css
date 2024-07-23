@@ -1,0 +1,194 @@
+.bootstrap {
+  background-color: #450ce2;
+}
+.bootstrap .title h2 {
+  background-color: #6f42ec;
+  color: rgb(238, 243, 248);
+}
+.bootstrap fieldset {
+  background-color: #6f42ec;
+  color: rgb(238, 243, 248);
+}
+.bootstrap dl {
+  background-color: #000;
+}
+
+.body {
+  margin: 0;
+  background-color: rgb(252, 235, 0);
+}
+.body h1 {
+  text-align: center;
+  color: rgb(238, 243, 248);
+  text-decoration: underline;
+}
+.body fieldset {
+  background-color: rgb(248, 199, 138);
+  border-radius: 20px;
+  margin: 20px;
+}
+.body li {
+  font-weight: bold;
+}
+
+.CSS-3-II {
+  background-color: rgb(55, 179, 137);
+  text-align: 0 auto;
+}
+.CSS-3-II dl {
+  font-weight: bold;
+  background-color: rgb(154, 255, 221);
+  display: inline;
+}
+.CSS-3-II dd {
+  background-color: rgba(27, 182, 209, 0.788);
+}
+
+.flexbox {
+  background-color: cadetblue;
+  padding: 20px;
+}
+.flexbox .flexbox fieldset {
+  background-color: aqua;
+}
+.flexbox .flexbox dl {
+  color: rgb(238, 243, 248);
+  background-color: #47d653;
+}
+.flexbox .flexbox dd {
+  background-color: #f59bb6;
+}
+
+.grid {
+  border-radius: 15px;
+  color: rgb(238, 243, 248);
+  background-color: #000;
+  padding: 20px;
+}
+.grid .grid fieldset, .grid .grid h3 {
+  background-color: #000;
+}
+
+.css-arch {
+  width: 100%;
+  margin: 0;
+  box-sizing: border-box;
+  padding: 5%;
+  padding-top: 0%;
+}
+.css-arch .css-arch dd {
+  background-color: rgb(238, 243, 248);
+}
+.css-arch .css-arch dt {
+  font-weight: 900;
+}
+.css-arch .css-arch dd {
+  margin-bottom: 10px;
+}
+.css-arch .css-arch dl {
+  font-weight: 400;
+  text-align: justify;
+}
+.css-arch .css-arch fieldset {
+  padding: 1%;
+}
+.css-arch .css-arch legend {
+  font-weight: bold;
+}
+.css-arch legend {
+  font-weight: bold;
+}
+
+.bootstrap {
+  background-color: #450ce2;
+}
+.bootstrap .title h2 {
+  background-color: #6f42ec;
+  color: rgb(238, 243, 248);
+}
+.bootstrap fieldset {
+  background-color: #6f42ec;
+  color: rgb(238, 243, 248);
+}
+.bootstrap dl {
+  background-color: #000;
+}
+
+.body p {
+  text-align: justify;
+  font-weight: initial;
+}
+.body h3, .body h2 {
+  text-align: center;
+  text-decoration: underline;
+  background-color: rgb(247, 225, 193);
+  color: #000;
+}
+
+.grid .grid section h3 {
+  color: rgb(238, 243, 248);
+  background-color: aqua;
+}
+
+.css-arch .css-arch h2 {
+  background-color: rgb(55, 179, 137);
+  text-align: center;
+  font-size: 3em;
+}
+.css-arch .css-arch section:nth-child(2), .css-arch .css-arch fieldset {
+  margin-top: 0;
+  border-radius: 0px;
+  padding: 2% 0;
+  background-color: rgb(238, 243, 248);
+}
+
+.bootstrap fieldset legend {
+  font-weight: bold;
+  margin: 0 20px;
+}
+.bootstrap dl dt {
+  color: #f59bb6;
+  margin-left: 10px;
+}
+.bootstrap dl dd {
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+
+.git {
+  background-color: #000;
+  color: rgb(238, 243, 248);
+}
+.git section:first-of-type h2 {
+  background-color: #000;
+  color: rgb(238, 243, 248);
+  text-align: center;
+  border-radius: 10px;
+}
+.git fieldset {
+  background-color: rgb(39, 46, 66);
+  border-radius: 10px;
+}
+.git legend {
+  background-color: rgb(39, 46, 66);
+  color: rgb(238, 243, 248);
+  padding: 5px;
+}
+.git dl {
+  border-radius: 10px;
+  background-color: rgb(39, 46, 66);
+  color: rgb(238, 243, 248);
+}
+.git dt {
+  margin-top: 20px;
+  background-color: #000;
+  color: rgb(238, 243, 248);
+}
+.git dd {
+  padding-left: 10px;
+  padding-right: 5px;
+  text-align: justify;
+  background-color: rgb(39, 46, 66);
+  color: rgb(238, 243, 248);
+  margin-bottom: 20px;
+}/*# sourceMappingURL=main.css.map */

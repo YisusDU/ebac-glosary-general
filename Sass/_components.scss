@@ -1,0 +1,62 @@
+.body{
+    p{
+        text-align: justify;
+        font-weight: initial;
+    }
+    h3,h2{
+        text-align: center;
+        text-decoration: underline;
+        background-color: $hcolors;
+        color: $black;
+    
+    }
+}
+
+.grid{
+   
+    .grid section h3{
+        color: $white;
+        background-color: $aqua;
+    }
+    
+}
+
+
+.css-arch {
+    .css-arch h2{
+        background-color: $aquamarine;
+        text-align: center;
+        font-size: 3em;
+    
+    }
+    .css-arch section:nth-child(2), .css-arch fieldset{
+        margin-top: 0;
+        border-radius: 0px;
+        padding: 2% 0;
+        background-color: $white;
+    }
+   
+}
+
+.bootstrap{
+    fieldset{
+        legend{
+            font-weight: bold;
+            margin: 0 20px;
+        }
+    }
+    dl{
+        dt{
+            color: $pinkNeon;
+            margin-left: 10px;
+        }
+        dd{
+            margin-left: 20px;
+            margin-bottom: 20px;
+        }
+    }
+}
+
+.git{
+    @include articleStyles($white,$white,$black,$black,rgb(39, 46, 66),rgb(39, 46, 66),rgb(39, 46, 66),$black,rgb(39, 46, 66));
+}

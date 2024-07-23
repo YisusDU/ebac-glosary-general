@@ -1,0 +1,105 @@
+.body{
+    margin: 0;
+    background-color: $bodyBackground;
+
+    h1{
+        text-align: center;
+        color: $white;
+        text-decoration: underline;
+    }
+    fieldset{
+        background-color: $fieldsetColor;
+        border-radius: 20px;
+        margin: 20px;
+    }
+    li{
+        font-weight: bold;
+    }
+}
+.CSS-3-II{
+    background-color: $aquamarine;
+    text-align: 0 auto;
+    dl{
+        font-weight: bold;
+        background-color: $aquamarineLight;
+        display: inline;
+    }
+    dd{
+        background-color: $blueDeep;
+    }
+   
+}
+.flexbox{
+    background-color: $cadetBlue;
+    padding: 20px;
+    .flexbox fieldset{
+        background-color: $aqua;
+    }
+    .flexbox dl{
+        color: $white;
+        background-color: $greenNeon;
+    }
+    .flexbox dd{
+        background-color: $pinkNeon;
+    }
+}
+
+.grid{
+    border-radius: 15px;
+    color: $white;
+    background-color: $black;
+    padding: 20px;
+    .grid fieldset, .grid h3{
+        background-color:$black;
+    }
+   
+}
+.css-arch {
+    width: 100%;
+    margin: 0;
+    box-sizing: border-box;
+    padding: 5%;
+    padding-top: 0%;
+    .css-arch dd{
+        background-color: $white;
+    }
+    .css-arch dt{
+        font-weight: 900;
+    }
+    
+    .css-arch dd{
+        
+        margin-bottom: 10px;
+    }
+    .css-arch dl{
+        font-weight: 400;
+        text-align: justify;
+    }
+    .css-arch fieldset{
+        padding: 1%;
+    }
+    .css-arch legend{
+        font-weight: bold;
+    }
+    legend{
+        font-weight: bold;
+    }
+}
+
+.bootstrap{
+    background-color: $purple;
+    .title{
+       & h2{
+        background-color: $purpleLght;
+        color: $white;
+       }
+    }
+    fieldset{
+        background-color: $purpleLght;
+        color: $white;
+    }
+    dl{
+        background-color: $black;
+    }
+}
+

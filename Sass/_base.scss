@@ -1,0 +1,72 @@
+$bodyBackground:  rgb(252, 235, 0);
+$white: rgb(238, 243, 248);
+$fieldsetColor: rgb(248, 199, 138);
+$hcolors: rgb(247, 225, 193);
+$black: #000;
+$aqua:  aqua;
+$aquamarine: rgb(55, 179, 137);
+$aquamarineLight: rgb(154, 255, 221);
+$blueDeep: rgba(27, 182, 209, 0.788);
+$cadetBlue: cadetblue;
+$greenNeon: #47d653; 
+$pinkNeon:  #f59bb6;
+$purple: #450ce2;
+$purpleLght: #6f42ec;
+
+.bootstrap{
+    background-color: $purple;
+    .title{
+       & h2{
+        background-color: $purpleLght;
+        color: $white;
+       }
+    }
+    fieldset{
+        background-color: $purpleLght;
+        color: $white;
+    }
+    dl{
+        background-color: $black;
+    }
+}
+
+@mixin articleStyles($letterTitles, $letterContent,$background,$title,$fieldset,$legend,$dl,$dt,$dd) {
+    background-color: $background ;
+    color: $letterTitles;
+     section:first-of-type h2{
+         background-color: $title;
+         color: $letterTitles;
+         text-align: center;
+         border-radius: 10px;
+        }
+    fieldset{
+        background-color: $fieldset;
+        border-radius: 10px;
+    }
+    legend{
+        background-color: $legend;
+       color: $letterTitles;
+       padding: 5px;
+    }
+    dl{
+        border-radius: 10px;
+        background-color: $dl;
+        color: $letterContent;
+    }
+    dt{
+        margin-top: 20px;
+        background-color: $dt;
+        color: $letterContent;
+        
+    }
+    dd{
+        padding-left: 10px;
+        padding-right: 5px;
+        text-align: justify;
+        background-color: $dd;
+        color: $letterContent;
+        margin-bottom: 20px;
+    }
+}
+
+    
