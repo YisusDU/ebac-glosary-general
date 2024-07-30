@@ -17,19 +17,6 @@
   margin: 0;
   background-color: rgb(252, 235, 0);
 }
-.body h1 {
-  text-align: center;
-  color: rgb(238, 243, 248);
-  text-decoration: underline;
-}
-.body fieldset {
-  background-color: rgb(248, 199, 138);
-  border-radius: 20px;
-  margin: 20px;
-}
-.body li {
-  font-weight: bold;
-}
 
 .CSS-3-II {
   background-color: rgb(55, 179, 137);
@@ -114,6 +101,12 @@
   background-color: #000;
 }
 
+.javaScript {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
 .body p {
   text-align: justify;
   font-weight: initial;
@@ -123,6 +116,32 @@
   text-decoration: underline;
   background-color: rgb(247, 225, 193);
   color: #000;
+}
+.body h1 {
+  text-align: center;
+  color: rgb(238, 243, 248);
+  text-decoration: underline;
+}
+.body h2, .body legend {
+  font-weight: bold;
+}
+.body span {
+  font-weight: bold;
+}
+.body fieldset {
+  background-color: rgb(248, 199, 138);
+  border-radius: 20px;
+  margin: 20px;
+  padding: 10px;
+}
+.body li {
+  font-weight: bold;
+}
+.body dl {
+  text-align: justify;
+}
+.body dt {
+  font-size: 1.1rem;
 }
 
 .grid .grid section h3 {
@@ -231,4 +250,8 @@
   background-color: rgb(252, 235, 0);
   color: #000;
   margin-bottom: 20px;
+}
+
+.javaScript fieldset {
+  padding: 10px;
 }/*# sourceMappingURL=main.css.map */
