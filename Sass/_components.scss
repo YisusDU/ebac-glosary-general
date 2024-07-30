@@ -10,6 +10,33 @@
         color: $black;
     
     }
+    h1{
+        text-align: center;
+        color: $white;
+        text-decoration: underline;
+    }
+    h2,legend{
+        font-weight: bold;
+    }
+    span{
+        font-weight: bold;
+    }
+    
+    fieldset{
+        background-color: $fieldsetColor;
+        border-radius: 20px;
+        margin: 20px;
+        padding: 10px;
+    }
+    li{
+        font-weight: bold;
+    }
+    dl{
+        text-align: justify;
+    }
+    dt{
+        font-size: 1.1rem;
+    }
 }
 
 .grid{
@@ -63,4 +90,9 @@
 .staticServices{
     @include articleStyles($black,$black,$bodyBackground,$hcolors,$bodyBackground,$hcolors,$bodyBackground,$cadetBlue,$bodyBackground);
 
+}
+.javaScript{
+  fieldset{
+    padding: 10px;
+  }
 }

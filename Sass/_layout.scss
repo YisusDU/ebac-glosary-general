@@ -2,20 +2,8 @@
     margin: 0;
     background-color: $bodyBackground;
 
-    h1{
-        text-align: center;
-        color: $white;
-        text-decoration: underline;
-    }
-    fieldset{
-        background-color: $fieldsetColor;
-        border-radius: 20px;
-        margin: 20px;
-    }
-    li{
-        font-weight: bold;
-    }
 }
+
 .CSS-3-II{
     background-color: $aquamarine;
     text-align: 0 auto;
@@ -103,3 +91,8 @@
     }
 }
 
+.javaScript{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
