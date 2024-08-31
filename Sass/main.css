@@ -135,7 +135,7 @@
   padding: 10px;
 }
 .body li {
-  font-weight: bold;
+  font-weight: normal;
 }
 .body dl {
   text-align: justify;
