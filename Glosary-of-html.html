@@ -3154,6 +3154,78 @@
         </fieldset>
     </section>
 </article>
+
+<article>
+    <!--Sección 38, Sitios Web Interactivos: DOM y Eventos-->
+    <section>
+        <h2>Sitios Web Interactivos: DOM y Eventos</h2>
+    </section>
+    <section>
+        <fieldset>
+            <legend>Explora qué es el DOM</legend>
+            <dl>
+                <dt>DOM (Modelo de Objeto de Documento): </dt>
+                <dd>Es una interfaz de programación que proporciona una representación estructurada y manipulable de documentos HTML y XML, permitiendo a los scripts acceder y modificar el contenido, estructura y estilo de los documentos.</dd>
+                
+            </dl>
+        </fieldset>
+        <fieldset>
+            <legend>Aplica DOM Methods</legend>
+            <dl>
+                <dt>appendChild: </dt>
+                <dd>Método que agrega un nodo como hijo de otro nodo dentro del DOM.</dd>
+
+                <dt>createElement: </dt>
+                <dd>Método que crea un nuevo elemento HTML especificado por su nombre de etiqueta.</dd>
+
+                <dt>getElementsByClassName: </dt>
+                <dd>Método que devuelve una colección de elementos en el documento con la clase CSS especificada.</dd>
+                
+                <dt>getElementsByTagName: </dt>
+                <dd>Método que devuelve una colección de elementos en el documento con el nombre de la etiqueta HTML especificada.</dd>
+
+                <dt>querySelector: </dt>
+                <dd>Método que devuelve el primer elemento que coincide con un selector CSS especificado en el documento.</dd>
+
+                <dt>removeChild: </dt>
+                <dd>Método que elimina un nodo hijo de otro nodo dentro del DOM.</dd>
+
+                <dt>setAttribute:</dt>
+                <dd>Método que agrega o actualiza un atributo en un elemento HTML con el valor especificado.</dd>
+
+            </dl>
+        </fieldset>
+        <fieldset>
+            <legend>Usa DOM Events</legend>
+            <dl>
+                <dt>AddEventListener:</dt>
+                <dd>Método utilizado para adjuntar un controlador de eventos a un elemento del DOM. Permite escuchar eventos específicos en el elemento y ejecutar una función cuando ocurra el evento.</dd>
+
+                <dt>Bubbling:</dt>
+                <dd>Un concepto en el modelo de eventos del DOM donde un evento se propaga desde el elemento objetivo hasta el ancestro más externo del elemento. Los eventos pueden "burbujear" hacia arriba en la jerarquía del DOM, lo que significa que si un elemento interior tiene un controlador de eventos, el evento también se activará en sus elementos contenedores.</dd>
+
+                <dt>Event:</dt>
+                <dd>Un objeto que representa un evento que ocurre en el DOM, como hacer clic en un elemento, cambiar el tamaño de una ventana, etc. Los eventos son utilizados para controlar la interacción del usuario con la página web.</dd>
+
+                <dt>Capturing:</dt>
+                <dd>Una fase de propagación de eventos en el modelo de eventos del DOM donde el evento se captura desde el ancestro más externo hacia el elemento objetivo. Es la fase opuesta a la fase de burbujeo.</dd>
+
+                <dt>EventTarget:</dt>
+                <dd>La interfaz que describe a un nodo del DOM que puede recibir eventos y puede tener oyentes adjuntos a él. Prácticamente, todos los objetos de JavaScript pueden ser EventTarget, pero típicamente, son elementos HTML, documentos y la ventana.</dd>
+
+                <dt>PreventDefault:</dt>
+                <dd>Método utilizado en los controladores de eventos para detener el comportamiento predeterminado asociado con un evento específico. Por ejemplo, si se llama a preventDefault() en un evento de clic, evitará que el navegador siga el enlace o envíe el formulario.</dd>
+
+                <dt>RemoveEventListener:</dt>
+                <dd>Método utilizado para eliminar un controlador de eventos que se adjuntó previamente a un elemento del DOM utilizando addEventListener(). Esto permite desvincular la función de manejo de eventos de un elemento específico, lo que evita que se ejecute cuando ocurre el evento.</dd>
+
+                <dt>Target:</dt>
+                <dd>El objetivo de un evento, es decir, el elemento en el que ocurrió originalmente el evento. En muchos casos, este elemento es aquel al que se adjuntó el controlador de eventos.</dd>
+                
+            </dl>
+        </fieldset>
+    </section>
+</article>
 </main>
 </body>
 </html>
